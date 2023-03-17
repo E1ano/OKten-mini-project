@@ -1,0 +1,36 @@
+@import "./templates/null-styles.css";
+@import "./templates/background.css";
+
+.users__wrapper {
+    padding-top: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.user__button {
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    backface-visibility: hidden;
+}
+
+.user__button:hover {
+    transform: scale(1.1);
+}

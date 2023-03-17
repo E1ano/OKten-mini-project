@@ -1,0 +1,32 @@
+@import "../templates/null-styles.css";
+@import "../templates/back-button.css";
+@import "../templates/background.css";
+
+.post__info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+}
+
+.comments__info {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.post__wrapper {
+    padding: 15px;
+    border: 2px solid #ffffff;
+}
+
+.post__field {
+    padding: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
